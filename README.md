@@ -21,11 +21,11 @@ drakeplanner::drakeplanner()
 
 # Usage
 
-1. Navigate to the `Plan` view (see the left sidebar).
-2. Write your [`drake` plan](https://ropenscilabs.github.io/drake-manual/plans.html) in the `Plan` box. You can have supporting code throughout, but it must end with a call to [`drake_plan()`](https://ropensci.github.io/drake/reference/drake_plan.html)
+1. Navigate to the `Plan` view (left sidebar).
+2. Write your [`drake` plan](https://ropenscilabs.github.io/drake-manual/plans.html) in the `Plan` box. The code must return a valid `drake` plan at the end, ideally with a call to the [`drake_plan()`](https://ropensci.github.io/drake/reference/drake_plan.html) function.
 3. Write your [custom functions](https://ropenscilabs.github.io/drake-manual/plans.html) in the `Functions` box.
 4. Click `Update` button in the `Control` box.
-5. Optional: click the `Download` button in the `Control` box to save a script that sets up, runs, and visualizes your [`drake`](https://github.com/ropensci/drake) workflow.
+5. Optional: click the `Download` button in the `Control` box to save your workflow as an R script.
 
 # Tips
 
