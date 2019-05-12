@@ -38,6 +38,9 @@ Imports:
   visNetwork
 Remotes:
   ropensci/drake
+Suggests:
+  pkgload,
+  rmarkdown
 Encoding: UTF-8
 Language: en-US
 Roxygen: list(markdown = TRUE)

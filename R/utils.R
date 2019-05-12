@@ -32,8 +32,8 @@ drake_script <- function(input) {
     "make(plan)",
     "",
     "# You can visualize your plan and workflow.",
-    "config <- drake_config(plan)",
-    "vis_drake_graph(config)",
+    "# config <- drake_config(plan)",
+    "# vis_drake_graph(config)",
     "",
     "# And you can load targets from the cache with loadd() and readd()."
   )
