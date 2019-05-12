@@ -160,7 +160,7 @@ ui_sidebar <- bs4Dash::bs4DashSidebar(
   skin = "light",
   status = "primary",
   brandColor = "primary",
-  title = "drake planner",
+  title = "drakeplanner",
   bs4Dash::bs4SidebarMenu(
     bs4Dash::bs4SidebarMenuItem(
       "Plan",
@@ -176,7 +176,7 @@ ui_sidebar <- bs4Dash::bs4DashSidebar(
 )
 
 ui <- bs4Dash::bs4DashPage(
-  title = " drake planner",
+  title = " drakeplanner",
   body = ui_body,
   navbar = bs4Dash::bs4DashNavbar(controlbarIcon = NULL),
   sidebar = ui_sidebar
