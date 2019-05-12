@@ -1,0 +1,44 @@
+Package: drakeplanner
+Title: Create and Visualize Drake Workflows
+Description: A Shiny app for creating and visualizing
+  drake workflows (<https://github.com/ropensci/drake>)
+  interactively. Simply supply a drake plan and supporting functions,
+  and the app shows the dependency graph and assembles the pieces
+  into a downloadable R script. Read about the details at
+  <https://github.com/wlandau/drakeplanner/blob/master/README.md>.
+Version: 0.0.1
+License: GPL-3
+URL: https://github.com/wlandau/drakeplanner
+BugReports: https://github.com/wlandau/drakeplanner/issues
+Authors@R: c(
+  person(
+    family = "Landau",
+    given = c("William", "Michael"),
+    email = "will.landau@gmail.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0003-1878-3253")
+  ),
+  person(
+    family = "Eli Lilly and Company",
+    role = "cph"
+  ))
+Depends:
+  R (>= 3.3.0),
+  drake
+Imports:
+  bs4Dash,
+  DT,
+  htmltools,
+  shiny,
+  shinyalert,
+  shinyAce,
+  shinycssloaders,
+  storr,
+  styler,
+  visNetwork
+Remotes:
+  ropensci/drake
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
