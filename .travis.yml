@@ -3,10 +3,8 @@ cache: packages
 
 warnings_are_errors: true
 
-r_github_packages:
-  - r-lib/covr
-
 r_packages:
+  - covr
   - lintr
 
 after_success:
