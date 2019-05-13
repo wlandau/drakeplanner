@@ -1,5 +1,8 @@
-drake_source <- function(plan) {
-  paste(drake::drake_plan_source(plan), collapse = "\n")
+default_text <- function(file) {
+  path <- file.path("defaults", file)
+  path <- system.file(path, package = "drakeplanner", mustWork = TRUE)
+  lines <- readLines(path)
+  paste(lines, collapse = "\n")
 }
 
 deparse_commands <- function (x) {
@@ -37,6 +40,10 @@ drake_script <- function(input) {
     "",
     "# And you can load targets from the cache with loadd() and readd()."
   )
+}
+
+drake_source <- function(plan) {
+  paste(drake::drake_plan_source(plan), collapse = "\n")
 }
 
 parse_input <- function(text, envir, error) {
