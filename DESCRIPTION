@@ -40,7 +40,8 @@ Remotes:
   ropensci/drake
 Suggests:
   pkgload,
-  rmarkdown
+  rmarkdown,
+  shinytest
 Encoding: UTF-8
 Language: en-US
 Roxygen: list(markdown = TRUE)

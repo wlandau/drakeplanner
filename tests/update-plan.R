@@ -1,3 +1,4 @@
+library(shinytest)
 app <- ShinyDriver$new("../")
 app$snapshotInit("update-plan")
 
