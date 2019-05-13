@@ -1,10 +1,9 @@
 
 <!-- Run the Makefile to generate the README.md files from README.Rmd. -->
 
-![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+[![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/orangemug/stability-badges#experimental)
 [![Travis build
 status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=master)](https://travis-ci.org/wlandau/drakeplanner)
-
 [![Codecov test
 coverage](https://codecov.io/gh/wlandau/drakeplanner/branch/master/graph/badge.svg)](https://codecov.io/gh/wlandau/drakeplanner?branch=master)
 

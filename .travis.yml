@@ -1,4 +1,17 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: R
 cache: packages
+
+warnings_are_errors: true
+
+r_github_packages:
+  - r-lib/covr
+
+r_packages:
+  - lintr
+
+after_success:
+  - Rscript -e 'covr::codecov()'
+  - Rscript -e 'lintr::lint_package()'
+
+after_failure:
+- find *Rcheck -name '*fail' -print -exec cat '{}' \;
