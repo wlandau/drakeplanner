@@ -29,4 +29,4 @@ drakeplanner::drakeplanner()
 
 # Tips
 
-- Large plans may take time to render. If you encounter slowness, consider setting the `max_expand` argument of [`drake_plan()`](https://ropensci.github.io/drake/reference/drake_plan.html) to a small number. See [this section of the manual](https://ropenscilabs.github.io/drake-manual/plans.html#start-small) for a demonstration.
+- Large plans may take time to render. If you encounter slowness, consider setting the `max_expand` argument of [`drake_plan()`](https://ropensci.github.io/drake/reference/drake_plan.html) to a small number (not supported in [`drake`](https://github.com/ropensci/drake) version 7.2.0 and below). See [this section of the manual](https://ropenscilabs.github.io/drake-manual/plans.html#start-small) for a demonstration.
