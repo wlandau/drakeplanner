@@ -4,4 +4,6 @@
 app.R
 COPYRIGHT
 LICENSE
+Makefile
 rsconnect
+^README\.Rmd$
