@@ -85,7 +85,9 @@ ui <- function() {
       width = 12,
       status = "success",
       closable = FALSE,
-      shiny::includeMarkdown("README.md")
+      shiny::includeMarkdown(
+        system.file("README.md", package = "drakeplanner", mustWork = TRUE)
+      )
     )
   )
 

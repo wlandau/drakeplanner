@@ -82,6 +82,7 @@ safe_deparse <- function (x, collapse = "\n") {
 
 update_values <- function(values, input) {
   envir <- new.env(parent = globalenv())
+  parse_input("require(drake)", envir) # "Depends: drake" is not enough.
   plan <- parse_input(input$plan, envir, "Plan error")
   if (identical(plan, "error")) {
     return()

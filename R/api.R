@@ -7,6 +7,5 @@
 #' drakeplanner()
 #' }
 drakeplanner <- function() {
-  require("drake")
   shiny::shinyApp(ui = ui(), server = server)
 }
