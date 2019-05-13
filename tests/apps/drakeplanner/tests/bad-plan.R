@@ -2,8 +2,14 @@ library(shinytest)
 app <- ShinyDriver$new("../")
 app$snapshotInit("bad-plan")
 
-app$setInputs(table_rows_current = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), allowInputNoBinding_ = TRUE)
-app$setInputs(table_rows_all = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14), allowInputNoBinding_ = TRUE)
+app$setInputs(
+  table_rows_current = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+  allowInputNoBinding_ = TRUE
+)
+app$setInputs(
+  table_rows_all = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14),
+  allowInputNoBinding_ = TRUE
+)
 app$snapshot()
 app$setInputs(plan = "# From https://github.com/wlandau/drake-examples/blob/master/mtcars/R/plan.R # nolint
 
