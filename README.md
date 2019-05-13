@@ -5,6 +5,9 @@
 [![Travis build
 status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=master)](https://travis-ci.org/wlandau/drakeplanner)
 
+[![Codecov test
+coverage](https://codecov.io/gh/wlandau/drakeplanner/branch/master/graph/badge.svg)](https://codecov.io/gh/wlandau/drakeplanner?branch=master)
+
 # drakeplanner
 
 This R/Shiny app is a companion to the

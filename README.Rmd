@@ -7,6 +7,8 @@ output: github_document
 ![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 [![Travis build status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=master)](https://travis-ci.org/wlandau/drakeplanner)
 
+[![Codecov test coverage](https://codecov.io/gh/wlandau/drakeplanner/branch/master/graph/badge.svg)](https://codecov.io/gh/wlandau/drakeplanner?branch=master)
+
 # drakeplanner
 
 This R/Shiny app is a companion to the [`drake`](https://github.com/ropensci/drake) R package. It helps new users learn [`drake`](https://github.com/ropensci/drake), and it helps new and experienced users set up new [`drake`](https://github.com/ropensci/drake)-powered projects. Simply provide a [`drake` plan](https://ropenscilabs.github.io/drake-manual/plans.html), and `drakeplanner` will show you the end-to-end dependency graph of your workflow and produce a downloadable R script to get your project started.
