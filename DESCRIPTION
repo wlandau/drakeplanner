@@ -39,8 +39,9 @@ Imports:
 Remotes:
   ropensci/drake
 Suggests:
-  pkgload,
-  rmarkdown
+  rmarkdown,
+  shinytest,
+  testthat (>= 2.1.0)
 Encoding: UTF-8
 Language: en-US
 Roxygen: list(markdown = TRUE)

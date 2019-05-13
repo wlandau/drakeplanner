@@ -2,6 +2,8 @@
 <!-- Run the Makefile to generate the README.md files from README.Rmd. -->
 
 ![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+[![Travis build
+status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=master)](https://travis-ci.org/wlandau/drakeplanner)
 
 # drakeplanner
 

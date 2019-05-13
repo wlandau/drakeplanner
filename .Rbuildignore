@@ -1,9 +1,9 @@
 ^\.lintr$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-app.R
 COPYRIGHT
 LICENSE
 Makefile
 rsconnect
 ^README\.Rmd$
+^\.travis\.yml$
