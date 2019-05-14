@@ -36,7 +36,7 @@ drake_script <- function(input) {
     "",
     "# You can visualize your plan and workflow.",
     "# config <- drake_config(plan)",
-    "# vis_drake_graph(config)",
+    "# vis_drake_graph(config, hover = TRUE)",
     "",
     "# And you can load targets from the cache with loadd() and readd()."
   )
@@ -63,7 +63,7 @@ resolve_graph <- function(plan, envir) {
     cache = storr::storr_environment(),
     session_info = FALSE
   )
-  info <- drake::drake_graph_info(config)
+  info <- drake::drake_graph_info(config, hover = TRUE)
   relabel <- info$nodes$status == "missing"
   info$nodes$status[relabel] <- "imported"
   info$nodes$color[relabel] <- "#1874CD"
