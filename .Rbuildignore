@@ -1,6 +1,7 @@
 ^\.lintr$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+app.R
 COPYRIGHT
 LICENSE
 Makefile
