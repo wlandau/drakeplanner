@@ -1,1 +1,2 @@
-drakeplanner::drakeplanner()
+pkgload::load_all()
+drakeplanner()
