@@ -10,7 +10,7 @@
 #' drakeplanner()
 #' }
 #' @references <https://github.com/wlandau/drakeplanner>
-#' @import drake styler
+#' @import drake styler tidyverse
 #' @importFrom bs4Dash bs4Card bs4DashBody bs4DashSidebar bs4SidebarMenu
 #'   bs4DashNavbar bs4DashPage bs4SidebarMenu bs4SidebarMenuItem bs4Sortable
 #'   bs4TabItem bs4TabItems

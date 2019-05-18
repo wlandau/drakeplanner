@@ -3,6 +3,7 @@
 export(drakeplanner)
 import(drake)
 import(styler)
+import(tidyverse)
 importFrom(DT,dataTableOutput)
 importFrom(DT,renderDataTable)
 importFrom(bs4Dash,bs4Card)

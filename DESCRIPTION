@@ -24,7 +24,8 @@ Authors@R: c(
   ))
 Depends:
   R (>= 3.3.0),
-  drake
+  drake,
+  tidyverse
 Imports:
   bs4Dash,
   DT,
