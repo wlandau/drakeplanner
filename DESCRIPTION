@@ -37,8 +37,6 @@ Imports:
   storr,
   styler,
   visNetwork
-Remotes:
-  ropensci/drake
 Suggests:
   covr,
   pkgload,
