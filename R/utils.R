@@ -61,7 +61,8 @@ resolve_graph <- function(plan, envir) {
     plan,
     envir = envir,
     cache = storr::storr_environment(),
-    session_info = FALSE
+    session_info = FALSE,
+    history = FALSE
   )
   info <- drake::drake_graph_info(config, hover = TRUE)
   relabel <- info$nodes$status == "missing"
