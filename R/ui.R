@@ -110,7 +110,7 @@ ui <- function() {
         icon = "project-diagram"
       ),
       bs4Dash::bs4SidebarMenuItem(
-        "usage",
+        "Usage",
         tabName = "usage",
         icon = "book-reader"
       )
