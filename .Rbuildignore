@@ -9,3 +9,4 @@ rsconnect
 ^README\.Rmd$
 ^\.travis\.yml$
 ^codecov\.yml$
+^rsconnect\.R$
