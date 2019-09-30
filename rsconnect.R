@@ -1,5 +1,5 @@
-library(drakeplanner)
 library(rsconnect)
+devtools::install_github("wlandau/drakeplanner")
 setAccountInfo(
   name   = Sys.getenv("shinyapps_name"),
   token  = Sys.getenv("shinyapps_token"),
