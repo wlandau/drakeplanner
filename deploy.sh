@@ -1,5 +1,4 @@
 #!/bin/bash
-[ -z "${GITHUB_PAT}" ] && exit 0
 echo "Environment variables:"
 echo "  PATH: ${PATH}"
 echo "  TRAVIS_BRANCH: ${TRAVIS_BRANCH}"
