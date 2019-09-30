@@ -9,4 +9,5 @@ rsconnect
 ^README\.Rmd$
 ^\.travis\.yml$
 ^codecov\.yml$
-^rsconnect\.R$
+^shinyapps\.R$
+^deploy.sh$
