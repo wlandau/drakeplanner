@@ -32,7 +32,8 @@ ui <- function() {
               default_text("plan.R"),
               fontSize = 14,
               tabSize = 2
-            )
+            ),
+            shiny::textOutput("plan_warnings")
           ),
           bs4Dash::bs4Card(
             title = "Functions",

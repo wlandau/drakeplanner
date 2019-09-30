@@ -46,11 +46,25 @@ drake_source <- function(plan) {
   paste(drake::drake_plan_source(plan), collapse = "\n")
 }
 
-parse_input <- function(text, envir, error) {
+parse_input <- function(text, envir, type) {
   tryCatch(
-    eval(parse(text = text), envir = envir),
+    withCallingHandlers(
+      eval(parse(text = text), envir = envir),
+      warning = function(w) {
+        shinyalert::shinyalert(
+          paste(type, "warning"),
+          w$message,
+          type = "warning"
+        )
+        "warning"
+      }
+    ),
     error = function(e) {
-      shinyalert::shinyalert(error, e$message, type = "error")
+      shinyalert::shinyalert(
+        paste(type, "error"),
+        e$message,
+        type = "error"
+      )
       "error"
     }
   )
@@ -86,12 +100,12 @@ update_values <- function(values, input) {
   for (pkg in c("drake", "tidyverse")) {
     parse_input(sprintf("require(%s)", pkg), envir) #"Depends:" is not enough.
   }
-  plan <- parse_input(input$plan, envir, "Plan error")
+  plan <- parse_input(input$plan, envir, "Plan")
   if (identical(plan, "error")) {
     return()
   }
   values$plan <- plan
-  out <- parse_input(input$functions, envir, "Functions error")
+  out <- parse_input(input$functions, envir, "Functions")
   if (identical(out, "error")) {
     return()
   }

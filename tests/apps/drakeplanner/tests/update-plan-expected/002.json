@@ -220,24 +220,24 @@
             5
           ],
           "title": [
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text.",
-            "Call drake_graph_info(hover = TRUE) for informative text."
+            "function&nbsp;(data,&nbsp;n)&nbsp;<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data[sample.int(n&nbsp;=&nbsp;...",
+            "function&nbsp;(d)&nbsp;<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;lm(y&nbsp;~&nbsp;+x,&nbsp;data&nbsp;=&nbsp;d)<br>}",
+            "function&nbsp;(d)&nbsp;<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;d$x2&nbsp;<-&nbsp;d$x^2<br>&nbsp;&nbsp;&nbsp;&nbsp;lm(y&nbsp;~&nbsp;x...",
+            "function&nbsp;(n)&nbsp;<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;<-&nbsp;random_rows(data&nbsp;=...",
+            "simulate(48)",
+            "simulate(64)",
+            "reg1(small)",
+            "reg2(small)",
+            "reg1(large)",
+            "reg2(large)",
+            "suppressWarnings(summary(regression1_small$res...",
+            "suppressWarnings(summary(regression1_small))$c...",
+            "suppressWarnings(summary(regression2_small$res...",
+            "suppressWarnings(summary(regression2_small))$c...",
+            "suppressWarnings(summary(regression1_large$res...",
+            "suppressWarnings(summary(regression1_large))$c...",
+            "suppressWarnings(summary(regression2_large$res...",
+            "suppressWarnings(summary(regression2_large))$c..."
           ],
           "x": [
             -1,
@@ -502,9 +502,9 @@
       "deps": [
         {
           "name": "dt-core",
-          "version": "1.10.16",
+          "version": "1.10.19",
           "src": {
-            "href": "dt-core-1.10.16"
+            "href": "dt-core-1.10.19"
           },
           "meta": null,
           "script": "js/jquery.dataTables.min.js",
