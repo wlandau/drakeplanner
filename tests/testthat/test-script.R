@@ -10,7 +10,8 @@ test_that("script", {
   writeLines(lines, file)
   dir <- tempfile()
   dir.create(dir)
-  setwd(dir) # nolint
+  old <- setwd(dir) # nolint
+  on.exit(setwd(old))
   source(file)
   out <- sort(drake::cached())
   exp <- c(
