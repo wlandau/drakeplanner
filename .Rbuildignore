@@ -11,3 +11,4 @@ rsconnect
 ^codecov\.yml$
 ^shinyapps\.R$
 ^deploy.sh$
+^manifest.json$
