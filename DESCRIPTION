@@ -5,7 +5,7 @@ Description: A Shiny app for creating and visualizing
   interactively. Simply supply a drake plan and supporting functions,
   and the app shows the dependency graph and assembles the pieces
   into a downloadable R script. Read about the details at
-  <https://github.com/wlandau/drakeplanner/blob/master/README.md>.
+  <https://github.com/wlandau/drakeplanner/blob/main/README.md>.
 Version: 0.0.2
 License: GPL-3
 URL: https://github.com/wlandau/drakeplanner

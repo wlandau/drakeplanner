@@ -3,9 +3,9 @@
 
 [![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/orangemug/stability-badges#experimental)
 [![Travis build
-status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=master)](https://travis-ci.org/wlandau/drakeplanner)
+status](https://travis-ci.org/wlandau/drakeplanner.svg?branch=main)](https://travis-ci.org/wlandau/drakeplanner)
 [![Codecov test
-coverage](https://codecov.io/gh/wlandau/drakeplanner/branch/master/graph/badge.svg)](https://codecov.io/gh/wlandau/drakeplanner?branch=master)
+coverage](https://codecov.io/gh/wlandau/drakeplanner/branch/main/graph/badge.svg)](https://codecov.io/gh/wlandau/drakeplanner?branch=main)
 
 # drakeplanner
 

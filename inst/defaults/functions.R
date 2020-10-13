@@ -1,4 +1,4 @@
-# From https://github.com/wlandau/drake-examples/blob/master/mtcars/R/functions.R # nolint
+# From https://github.com/wlandau/drake-examples/blob/main/mtcars/R/functions.R # nolint
 
 # Pick a random subset of n rows from a dataset
 random_rows <- function(data, n) {

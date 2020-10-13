@@ -1,4 +1,4 @@
-# From https://github.com/wlandau/drake-examples/blob/master/mtcars/R/plan.R # nolint
+# From https://github.com/wlandau/drake-examples/blob/main/mtcars/R/plan.R # nolint
 
 drake_plan(
   small = simulate(48),
