@@ -3,6 +3,10 @@
 
 [![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/orangemug/stability-badges#experimental)
 
+# Consider targets
+
+The [`targets`](https://docs.ropensci.org/targets) R package is the long-term successor of `drake`, and it is more robust and easier to use. Please visit <https://books.ropensci.org/targets/drake.html> for full context and advice on transitioning. The counterpart of `drakeplanner` in `targets` is `targetsketch`: <https://github.com/wlandau/targetsketch>.
+
 # drakeplanner
 
 This R/Shiny app is a companion to the
