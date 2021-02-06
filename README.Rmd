@@ -2,9 +2,11 @@
 output: github_document
 ---
 
-<!-- Run the Makefile to generate the README.md files from README.Rmd. -->
+<a href="https://www.tidyverse.org/lifecycle/#superseded"><img src="https://img.shields.io/badge/lifecycle-superseded-blue.svg" alt='superseded lifecycle'></a>
 
-[![experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/orangemug/stability-badges#experimental)
+## Consider `targets`
+
+`drake` is [superseded](https://www.tidyverse.org/lifecycle/#superseded). The [`targets`](https://docs.ropensci.org/targets/) R package is the long-term successor of `drake`, and it is more robust and easier to use. Please visit <https://books.ropensci.org/targets/drake.html> for full context and advice on transitioning. The counterpart of `drakeplanner` in `targets` is `targetsketch`: <https://github.com/wlandau/targetsketch>.
 
 # drakeplanner
 
